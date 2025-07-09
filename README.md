@@ -1,7 +1,7 @@
-🧩 Pokemon Explorer – Next.js Assignment
+Pokemon Explorer – Next.js Assignment
 A responsive and visually appealing Pokémon Explorer web application built using Next.js. It fetches data from the PokeAPI, displays a searchable list of Pokémon, and allows users to view detailed information on each one.
 
-🚀 Tech Stack
+Tech Stack
 Framework: Next.js
 
 Language: TypeScript (optional in your case)
@@ -12,7 +12,7 @@ API: PokeAPI
 
 Package Manager: Yarn
 
-📦 Installation
+Installation
 Make sure you have Node.js (v20.19.3 or later) installed.
 
 1. Install Yarn (if not already installed)
@@ -24,7 +24,7 @@ yarn dev
 
 The app should now be running at http://localhost:3000
 
-📂 Folder Structure (Important Files)
+Folder Structure (Important Files)
 
 ├── pages/
 │   ├── index.tsx               # Homepage
@@ -36,17 +36,17 @@ The app should now be running at http://localhost:3000
 ├── styles/                     # Global styles
 
  Features
-🔍 Search Pokémons by name
+Search Pokémons by name
 
-📄 Detailed view with image, stats, types, abilities, and moves
+Detailed view with image, stats, types, abilities, and moves
 
-🚦 Server-side rendering (SSR) for detail pages
+Server-side rendering (SSR) for detail pages
 
-⚡ Optimized performance
+Optimized performance
 
-💄 Responsive design using TailwindCSS
+Responsive design using TailwindCSS
 
-📝 Requirements Covered (from Assignment)
+Requirements Covered (from Assignment)
  Homepage with list and search
 
  Pokémon detail page via dynamic route
@@ -55,10 +55,10 @@ The app should now be running at http://localhost:3000
 
  Clean and styled UI
 
-🛠 Recommended
+Recommended
 Node.js version: 20.19.3
 
 Package manager: Yarn
 
-📬 Contact
+Contact
 bharathn653@gmail.com

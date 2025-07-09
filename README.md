@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🧩 Pokemon Explorer – Next.js Assignment
+A responsive and visually appealing Pokémon Explorer web application built using Next.js. It fetches data from the PokeAPI, displays a searchable list of Pokémon, and allows users to view detailed information on each one.
 
-## Getting Started
+🚀 Tech Stack
+Framework: Next.js
 
-First, run the development server:
+Language: TypeScript (optional in your case)
 
-```bash
-npm run dev
-# or
+Styling: TailwindCSS
+
+API: PokeAPI
+
+Package Manager: Yarn
+
+📦 Installation
+Make sure you have Node.js (v20.19.3 or later) installed.
+
+1. Install Yarn (if not already installed)
+npm install -g yarn
+2. Install dependencies
+yarn
+3. Start the development server
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app should now be running at http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📂 Folder Structure (Important Files)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+├── pages/
+│   ├── index.tsx               # Homepage
+│   ├── _app.tsx                # Global app component
+│   └── pokemon/[id].tsx        # Dynamic route for Pokemon details
+├── components/                 # Reusable UI components
+├── apis/                       # API utility functions
+├── public/                     # Static assets (optional SVGs, etc.)
+├── styles/                     # Global styles
 
-## Learn More
+ Features
+🔍 Search Pokémons by name
 
-To learn more about Next.js, take a look at the following resources:
+📄 Detailed view with image, stats, types, abilities, and moves
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🚦 Server-side rendering (SSR) for detail pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+⚡ Optimized performance
 
-## Deploy on Vercel
+💄 Responsive design using TailwindCSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📝 Requirements Covered (from Assignment)
+ Homepage with list and search
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ Pokémon detail page via dynamic route
+
+ SSR implementation
+
+ Clean and styled UI
+
+🛠 Recommended
+Node.js version: 20.19.3
+
+Package manager: Yarn
+
+📬 Contact
+bharathn653@gmail.com
